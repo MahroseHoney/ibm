@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IB&M UET</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="/images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Portfolios
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="Mahrose.html">Mahrose</a>
+                  <a href="momina pot.html">Momina</a>
+                  <a href="malaika cv.html">Malaika</a>
+                </div>
+              </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>Institiute Of Business & Technology, UET</h1>
+    <P>Business with Technology Starts Here</P>
+    <a href="" class="cool-btn">Visit Us to know More</a>
+</div>
+
+</section>
+
+<!-- -----Javascript for Toggle Menu -->
+<script>
+
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+<!-- COURSES -->
+
+<section class="Courses">
+    <h1>Courses We Offer </h1>
+    <p>Following are the Courses We Offer in Our Department</p>
+
+    <div class="row">
+        <div class="Course-Col">
+            <h2><font size="5">Bachelors</font></h2>
+            <p>Choose from one of the two very best Bachelors degree 
+                and start your career journey with us </p>
+            </div>
+            
+            <div class="Course-Col">
+            <h3><font size="5">Masters/M.phil</font></h3>
+            <p>Ready to persue your Journey and enhance your
+                your skills even more. Join us to be reach your true potential </p>
+            </div>
+           
+            <div class="Course-Col">
+            <h4><font size="5">Doctorate</font></h4>
+            <p>Become one of the best researcher in the world by joining 
+                us to the journey of Success</p>
+            </div>
+
+
+    </div>
+
+     
+</section>
+
+<!-- Campus -->
+<section class="campus">
+    <h1>Our National Campuses</h1>
+    <p>Discover and Achieve the greatness with our campuses spread nationwide .</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="/images/lahore-ibm.jpg" alt="Campus Image">
+            <div class="layer">
+                <h1>Lahore</h1>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="/images/Islamabad-ibm.jpg" alt="Campus Image">
+            <div class="layer">
+                <h2>Islamabad</h2>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="/images/karachi-ibm.jpeg" alt="Campus Image">
+            <div class="layer">
+                <h3>Karachi</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ------Facilities--------- -->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Our University has facilities like no other. Explore Now!</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="/images/uet-library.jpg" alt="Library image">
+            <h1><font size="5">World Class Library</font></h1>
+            <p>Equiped with the most to update library for best Engineering practices</p>
+        </div>
+        <div class="facilities-col">
+            <img src="/images/uet-ground.png" alt="Play ground image">
+            <h2><font size="5">Largest Play Ground</font></h>
+            <p>We have the best play grounds and even we have our own cricket ground.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="/images/uet-cafeteria.jpg" alt="Cafeteria image">
+            <h3><font size="5">Delicious and Hygenic Food</font></h3>
+            <p>We have the best cafe with variety of dishes at affordable prices.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ----Review---- -->
+<section class="Reviews">
+    <h1>Hear from Our Alumnus</h1>
+    <p>Can't believe in what we say? why don't you ask from our former Students</p>
+
+    <div class="row">
+        <div class="reviews-col">
+            <img src="/images/uet-abid.jpg" alt="User 1">
+            <div>
+                <h1><font size="5">Abid Wazir Khan</font></h1>
+                <p>Learning and implimenting the best management & engineering practices has taken me to 
+                    the place where without this institution I couldn't be able to reach where I am standing out today.</p>
+
+            </div>
+        </div>
+        <div class="reviews-col">
+            <img src="/images/uet-honey.webp" alt="User 2">
+            <div>
+                <h2><font size="5">Mahrose Hassan</font></h2> 
+                <p>Having graduation with this BBIT(HONS.) degree made me an all rounder in the field of education. 
+                    I can select whichever firm of my interest whether its a business aur an IT firm.
+                </p>
+        </div>
+    </div>
+</section>
+
+<!-- ----Call To Action---- -->
+
+<section class="cta">
+    <h1>Enroll For Our Various Online Courses<br> From The World</h1>
+    <a href="" class="cool-btn">CONTACT US</a>
+</section>
+
+<!-- ---Footer--- -->
+<section class="footer">
+    <h1>About Us</h1>
+    <p>The best Engineering and Management University in the Country you can think of. <br> We have state of the art Technology to 
+        boost the emerging engineers and Businessmen to lead the world with their immense Knowledge.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/UETLahore.official/" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/uet_official?lang=en"target=_blank><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/uet_lahore_official/?hl=en"target=_blank><i class="fa fa-instagram"></i></a>
+        <a href="https://pk.linkedin.com/company/uet-lahore"target=_blank><i class="fa fa-linkedin"></i></a>
+    </div>
+    <p>Made by Geniuses</p>
+</section>
+
+
+</body>
+</html>

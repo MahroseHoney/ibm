@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IB&M UET</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Portfolios
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="Mahrose.html">Mahrose</a>
+                  <a href="momina pot.html">Momina</a>
+                  <a href="malaika cv.html">Malaika</a>
+                </div>
+              </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<h1>About Us</h1>
+
+</section>
+
+<!------our About page------>
+
+<section class="about-us">
+    <div class="row">
+    <div class="about-col">
+        <h1>We are the best Engineering University in the Country</h1>
+        <p>University of Engineering and Technology, Lahore, commonly referred to as UET Lahore, is the oldest engineering university in Pakistan. 
+            This is a page for UET Lahore Alumni. It offers bachelor's, master's, and doctoral degrees in a variety of engineering disciplines. 
+            UET is a state university with a strength of almost 9000 students. UET has six faculties, containing a total of 23 academic departments. 
+            The institution started its career in 1921 as the ‘  Mughalpura Technical College ’.</p>
+            <a href="" class="cool-btn neon-btn">Explore Now</a>
+    </div>
+    <div class="about-col"></div>
+    <img src="/images/about 6 6.jpg">
+</section>
+
+
+<!-- -----Javascript for Toggle Menu -->
+<script>
+
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+<!-- ---Footer--- -->
+<section class="footer">
+    <h1>About Us</h1>
+    <p>The best Engineering and Management University in the Country you can think of. <br> We have state of the art Technology to 
+        boost the emerging engineers and Businessmen to lead the world with their immense Knowledge.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/UETLahore.official/" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/uet_official?lang=en"target=_blank><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/uet_lahore_official/?hl=en"target=_blank><i class="fa fa-instagram"></i></a>
+        <a href="https://pk.linkedin.com/company/uet-lahore"target=_blank><i class="fa fa-linkedin"></i></a>
+    </div>
+    <p>Made by Geniuses</p>
+</section>
+
+
+</body>
+</html>
