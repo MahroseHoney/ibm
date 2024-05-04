@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /IB&M UET/index(Home)
+Allow: /IB&M UET/About
+Allow: /IB&M UET/Courses
+Allow: /IB&M UET/blog
+Allow: /IB&M UET/Contact
+
